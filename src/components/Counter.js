@@ -6,8 +6,9 @@ const Counter = (props) => {
         document.title=`you clicked${count}`
         // alert('ゆーずえふぇくと')
         const a = document.querySelector('#r')
-        a.innerHTML +=`<h2>${count}</h2>`
+        a.innerHTML +=`<h3>${count}</h3>`
         
+
     })
     const add = () => {
         setCount(count + 1)
